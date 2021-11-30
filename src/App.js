@@ -10,6 +10,7 @@ function App() {
   // torsoStr
   const [torso, setTorso] = useState('');
   // legsStr
+  const [bottom, setBottom] = useState('');
   // newCatchphraseStr
   // catchPhraseListArr
 
@@ -35,11 +36,14 @@ function App() {
         head={head}
         setTorso={setTorso}
         torso={torso}
+        setBottom={setBottom}
+        bottom={bottom}
         />
       {/* Display component */}
       <Display
         head={head}
         torso={torso}
+        bottom={bottom}
       />
     </main>
   );
