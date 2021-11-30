@@ -1,7 +1,7 @@
 import React from 'react'
 import Select from '../Select/Select.jsx'
 
-export default function Picker({setHead}) {
+export default function Selector({setHead, head}) {
     return (
         <section>
             <label>
@@ -9,6 +9,7 @@ export default function Picker({setHead}) {
                 <Select
                     optionsArr={['cowboy', 'green', 'top', 'wizard']}
                     setState={setHead}
+                    state={head}
                 />
             </label>
         </section>
