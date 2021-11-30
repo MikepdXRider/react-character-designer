@@ -1,6 +1,8 @@
 import React from 'react'
 
-export default function Select(optionsArr, setState) {
+export default function Select({optionsArr, setState}) {
+    // console.log('setState: ', setState);
+    // console.log('optionsArr: ', optionsArr);
     return (
         <select onChange={(e) => setState(e.target.value)}>
             {

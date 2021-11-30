@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
+import Picker from './components/Picker/Picker.jsx';
 
 function App() {
 // hooks here
@@ -28,6 +28,9 @@ function App() {
   return (
     <main className="App">
       {/* Picker component */}
+      <Picker 
+        setHead={setHead}
+      />
       {/* Display component */}
     </main>
   );
