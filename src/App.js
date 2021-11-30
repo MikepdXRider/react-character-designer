@@ -2,23 +2,32 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+// hooks here
+  // headStr
+  // torsoStr
+  // legsStr
+  // newCatchphraseStr
+  // catchPhraseListArr
+
+/**
+ * adds the newCatchphraseStr to the catchphraseListArr.
+ * 
+ */
+
+
+/**
+ * Updates picker hooks.
+ *
+ * @param {text} type the type of hook to update.
+ * @param {text} newValue the new value, used to update the hook.
+ */
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="App">
+      {/* Picker component */}
+      {/* Display component */}
+    </main>
   );
 }
 
