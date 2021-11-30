@@ -8,6 +8,7 @@ function App() {
   // headStr
   const [head, setHead] =  useState('');
   // torsoStr
+  const [torso, setTorso] = useState('');
   // legsStr
   // newCatchphraseStr
   // catchPhraseListArr
@@ -32,10 +33,13 @@ function App() {
       <Selector 
         setHead={setHead}
         head={head}
-      />
+        setTorso={setTorso}
+        torso={torso}
+        />
       {/* Display component */}
       <Display
         head={head}
+        torso={torso}
       />
     </main>
   );

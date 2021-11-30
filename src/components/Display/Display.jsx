@@ -7,13 +7,19 @@ const globalArticleStyle = {
     backgroundSize: 'auto'
 }
 
-export default function Display({head}) {
+export default function Display({head, torso}) {
     return (
         <section>
             <article 
             style={{
                 ...globalArticleStyle,
                 backgroundImage: `url(${head}-hat.png)`
+                }}>
+            </article>
+            <article 
+            style={{
+                ...globalArticleStyle,
+                backgroundImage: `url(${torso}-torso.png)`
                 }}>
 
             </article>
