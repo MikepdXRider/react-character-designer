@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders UserInput component 1`] = `
+<div>
+  <section>
+    <label>
+      Head
+      <select>
+        <option
+          disabled=""
+          hidden=""
+          value=""
+        >
+          Please Choose...
+        </option>
+        <option
+          value="cowboy-hat"
+        >
+          cowboy-hat
+        </option>
+        <option
+          value="green-hat"
+        >
+          green-hat
+        </option>
+        <option
+          value="top-hat"
+        >
+          top-hat
+        </option>
+        <option
+          value="wizard-hat"
+        >
+          wizard-hat
+        </option>
+      </select>
+    </label>
+    <label>
+      Torso
+      <select>
+        <option
+          disabled=""
+          hidden=""
+          value=""
+        >
+          Please Choose...
+        </option>
+        <option
+          value="cowboy-torso"
+        >
+          cowboy-torso
+        </option>
+        <option
+          value="formal-torso"
+        >
+          formal-torso
+        </option>
+        <option
+          value="jacket-torso"
+        >
+          jacket-torso
+        </option>
+      </select>
+    </label>
+    <label>
+      Bottom
+      <select>
+        <option
+          disabled=""
+          hidden=""
+          value=""
+        >
+          Please Choose...
+        </option>
+        <option
+          value="cowboy-bottom"
+        >
+          cowboy-bottom
+        </option>
+        <option
+          value="jean-bottom"
+        >
+          jean-bottom
+        </option>
+        <option
+          value="diaper-bottom"
+        >
+          diaper-bottom
+        </option>
+        <option
+          value="skirt-bottom"
+        >
+          skirt-bottom
+        </option>
+        <option
+          value="suit-bottom"
+        >
+          suit-bottom
+        </option>
+      </select>
+    </label>
+    <label>
+      Catchphrase
+      <input
+        type="text"
+        value=""
+      />
+    </label>
+    <button>
+      Add Catchphrase
+    </button>
+  </section>
+</div>
+`;

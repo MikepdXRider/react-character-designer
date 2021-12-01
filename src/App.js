@@ -1,24 +1,51 @@
-import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
+import UserInput from './components/UserInput/UserInput.jsx';
+import Display from './components/Display/Display.jsx';
 
 function App() {
+// hooks here
+  // headStr
+  const [head, setHead] =  useState('cowboy-hat');
+  // torsoStr
+  const [torso, setTorso] = useState('cowboy-torso');
+  // legsStr
+  const [bottom, setBottom] = useState('cowboy-bottom');
+  // newCatchphraseStr
+  const [newCatchphraseStr, setNewCatchphraseStr] = useState('');
+  // catchPhraseListArr
+  const [catchphraseListArr, setCatchphraseListArr] = useState([]);
+  
+
+/**
+ * adds the newCatchphraseStr to the catchphraseListArr.
+ * 
+ */
+  const addCatchphrase = () => {
+    setCatchphraseListArr((prevState) => [...prevState, newCatchphraseStr]);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="App">
+      {/* UserInput component */}
+      <UserInput 
+        setHead={setHead}
+        head={head}
+        setTorso={setTorso}
+        torso={torso}
+        setBottom={setBottom}
+        bottom={bottom}
+        newCatchphraseStr={newCatchphraseStr}
+        setNewCatchphraseStr={setNewCatchphraseStr}
+        addCatchphrase={addCatchphrase}
+        />
+
+      {/* Display component */}
+      <Display
+        stateArr={[head, torso, bottom]}
+        catchphraseListArr={catchphraseListArr}
+      />
+    </main>
   );
 }
 
