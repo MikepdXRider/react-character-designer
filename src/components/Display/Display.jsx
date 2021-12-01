@@ -13,15 +13,15 @@ export default function Display({stateArr, catchphraseListArr}) {
             <section>
                 {
                     stateArr.map(state => {
-                    return <article 
-                        style={{
-                            ...globalArticleStyle,
-                            backgroundImage: `url(${state}.png)`
-                            }}
-                        data-testid={state}
-                        key={state}
-                        >
-                    </article>
+                        return <article 
+                            style={{
+                                ...globalArticleStyle,
+                                backgroundImage: `url(${state}.png)`
+                                }}
+                            data-testid={state}
+                            key={state}
+                            >
+                        </article>
                     })
                 }
             </section>

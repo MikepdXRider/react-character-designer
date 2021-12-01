@@ -10,7 +10,6 @@ export default function UserInput({setHead, head, setTorso, torso, setBottom, bo
                     optionsArr={['cowboy-hat', 'green-hat', 'top-hat', 'wizard-hat']}
                     setState={setHead}
                     state={head}
-
                 />
             </label>
             <label>

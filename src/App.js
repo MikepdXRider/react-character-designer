@@ -6,11 +6,11 @@ import Display from './components/Display/Display.jsx';
 function App() {
 // hooks here
   // headStr
-  const [head, setHead] =  useState('');
+  const [head, setHead] =  useState('cowboy-hat');
   // torsoStr
-  const [torso, setTorso] = useState('');
+  const [torso, setTorso] = useState('cowboy-torso');
   // legsStr
-  const [bottom, setBottom] = useState('');
+  const [bottom, setBottom] = useState('cowboy-bottom');
   // newCatchphraseStr
   const [newCatchphraseStr, setNewCatchphraseStr] = useState('');
   // catchPhraseListArr
