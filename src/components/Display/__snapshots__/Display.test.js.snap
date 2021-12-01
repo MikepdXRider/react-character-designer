@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders display component 1`] = `
+<div>
+  <section>
+    <article
+      data-testid="article"
+      style="width: 150px; height: 150px; background-repeat: no-repeat; background-size: auto; background-image: url(head-hat.png);"
+    />
+    <article
+      style="width: 150px; height: 150px; background-repeat: no-repeat; background-size: auto; background-image: url(torso-torso.png);"
+    />
+    <article
+      style="width: 150px; height: 150px; background-repeat: no-repeat; background-size: auto; background-image: url(bottom-bottom.png);"
+    />
+  </section>
+  <section>
+    <p
+      data-testid="item1"
+    >
+      item1
+    </p>
+    <p
+      data-testid="item2"
+    >
+      item2
+    </p>
+    <p
+      data-testid="item3"
+    >
+      item3
+    </p>
+  </section>
+</div>
+`;

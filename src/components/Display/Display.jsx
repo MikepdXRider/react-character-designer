@@ -7,30 +7,39 @@ const globalArticleStyle = {
     backgroundSize: 'auto'
 }
 
-export default function Display({head, torso, bottom}) {
+export default function Display({head, torso, bottom, catchphraseListArr}) {
     return (
-        <section>
+        <>
+            <section>
+                <article 
+                style={{
+                    ...globalArticleStyle,
+                    backgroundImage: `url(${head}-hat.png)`
+                    }}
+                data-testid='article'
+                >
+                </article>
 
-            <article 
-            style={{
-                ...globalArticleStyle,
-                backgroundImage: `url(${head}-hat.png)`
-                }}>
-            </article>
+                <article 
+                style={{
+                    ...globalArticleStyle,
+                    backgroundImage: `url(${torso}-torso.png)`
+                    }}>
+                </article>
 
-            <article 
-            style={{
-                ...globalArticleStyle,
-                backgroundImage: `url(${torso}-torso.png)`
-                }}>
-            </article>
+                <article 
+                style={{
+                    ...globalArticleStyle,
+                    backgroundImage: `url(${bottom}-bottom.png)`
+                    }}>
+                </article>
+            </section>
 
-            <article 
-            style={{
-                ...globalArticleStyle,
-                backgroundImage: `url(${bottom}-bottom.png)`
-                }}>
-            </article>
-        </section>
+            <section>
+                {
+                    catchphraseListArr.map(catchphrase => <p key={catchphrase} data-testid={catchphrase}>{catchphrase}</p>)
+                }
+            </section>
+        </>
     )
 }

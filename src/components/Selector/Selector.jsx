@@ -1,7 +1,7 @@
 import React from 'react'
 import Select from '../Select/Select.jsx'
 
-export default function Selector({setHead, head, setTorso, torso, setBottom, bottom}) {
+export default function Selector({setHead, head, setTorso, torso, setBottom, bottom, newCatchPhraseStr, setNewCatchphraseStr, addCatchphrase}) {
     return (
         <section>
             <label>
@@ -15,7 +15,7 @@ export default function Selector({setHead, head, setTorso, torso, setBottom, bot
             <label>
                 Torso
                 <Select
-                    optionsArr={['cowboy', 'diaper', 'formal', 'jacket']}
+                    optionsArr={['cowboy', 'formal', 'jacket']}
                     setState={setTorso}
                     state={torso}
                 />
@@ -23,11 +23,16 @@ export default function Selector({setHead, head, setTorso, torso, setBottom, bot
             <label>
                 Bottom
                 <Select
-                    optionsArr={['cowboy', 'jean', 'skirt', 'suit']}
+                    optionsArr={['cowboy', 'jean', 'diaper', 'skirt', 'suit']}
                     setState={setBottom}
                     state={bottom}
                 />
             </label>
+            <label>
+                Catchphrase
+                <input type="text" value={newCatchPhraseStr} onChange={(e) => setNewCatchphraseStr(e.target.value)} />
+            </label>
+            <button onClick={() => addCatchphrase()}>Add Catchphrase</button>
         </section>
     )
 }
