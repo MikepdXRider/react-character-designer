@@ -42,9 +42,7 @@ function App() {
 
       {/* Display component */}
       <Display
-        head={head}
-        torso={torso}
-        bottom={bottom}
+        stateArr={[head, torso, bottom]}
         catchphraseListArr={catchphraseListArr}
       />
     </main>

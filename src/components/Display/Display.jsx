@@ -7,32 +7,23 @@ const globalArticleStyle = {
     backgroundSize: 'auto'
 }
 
-export default function Display({head, torso, bottom, catchphraseListArr}) {
+export default function Display({stateArr, catchphraseListArr}) {
     return (
         <>
             <section>
-                <article 
-                style={{
-                    ...globalArticleStyle,
-                    backgroundImage: `url(${head}-hat.png)`
-                    }}
-                data-testid='article'
-                >
-                </article>
-
-                <article 
-                style={{
-                    ...globalArticleStyle,
-                    backgroundImage: `url(${torso}-torso.png)`
-                    }}>
-                </article>
-
-                <article 
-                style={{
-                    ...globalArticleStyle,
-                    backgroundImage: `url(${bottom}-bottom.png)`
-                    }}>
-                </article>
+                {
+                    stateArr.map(state => {
+                    return <article 
+                        style={{
+                            ...globalArticleStyle,
+                            backgroundImage: `url(${state}.png)`
+                            }}
+                        data-testid={state}
+                        key={state}
+                        >
+                    </article>
+                    })
+                }
             </section>
 
             <section>

@@ -14,28 +14,28 @@ exports[`renders UserInput component 1`] = `
           Please Choose...
         </option>
         <option
-          data-testid="cowboy"
-          value="cowboy"
+          data-testid="cowboy-hat"
+          value="cowboy-hat"
         >
-          cowboy
+          cowboy-hat
         </option>
         <option
-          data-testid="green"
-          value="green"
+          data-testid="green-hat"
+          value="green-hat"
         >
-          green
+          green-hat
         </option>
         <option
-          data-testid="top"
-          value="top"
+          data-testid="top-hat"
+          value="top-hat"
         >
-          top
+          top-hat
         </option>
         <option
-          data-testid="wizard"
-          value="wizard"
+          data-testid="wizard-hat"
+          value="wizard-hat"
         >
-          wizard
+          wizard-hat
         </option>
       </select>
     </label>
@@ -50,22 +50,22 @@ exports[`renders UserInput component 1`] = `
           Please Choose...
         </option>
         <option
-          data-testid="cowboy"
-          value="cowboy"
+          data-testid="cowboy-torso"
+          value="cowboy-torso"
         >
-          cowboy
+          cowboy-torso
         </option>
         <option
-          data-testid="formal"
-          value="formal"
+          data-testid="formal-torso"
+          value="formal-torso"
         >
-          formal
+          formal-torso
         </option>
         <option
-          data-testid="jacket"
-          value="jacket"
+          data-testid="jacket-torso"
+          value="jacket-torso"
         >
-          jacket
+          jacket-torso
         </option>
       </select>
     </label>
@@ -80,34 +80,34 @@ exports[`renders UserInput component 1`] = `
           Please Choose...
         </option>
         <option
-          data-testid="cowboy"
-          value="cowboy"
+          data-testid="cowboy-bottom"
+          value="cowboy-bottom"
         >
-          cowboy
+          cowboy-bottom
         </option>
         <option
-          data-testid="jean"
-          value="jean"
+          data-testid="jean-bottom"
+          value="jean-bottom"
         >
-          jean
+          jean-bottom
         </option>
         <option
-          data-testid="diaper"
-          value="diaper"
+          data-testid="diaper-bottom"
+          value="diaper-bottom"
         >
-          diaper
+          diaper-bottom
         </option>
         <option
-          data-testid="skirt"
-          value="skirt"
+          data-testid="skirt-bottom"
+          value="skirt-bottom"
         >
-          skirt
+          skirt-bottom
         </option>
         <option
-          data-testid="suit"
-          value="suit"
+          data-testid="suit-bottom"
+          value="suit-bottom"
         >
-          suit
+          suit-bottom
         </option>
       </select>
     </label>

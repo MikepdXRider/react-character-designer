@@ -7,7 +7,7 @@ export default function UserInput({setHead, head, setTorso, torso, setBottom, bo
             <label>
                 Head
                 <Select
-                    optionsArr={['cowboy', 'green', 'top', 'wizard']}
+                    optionsArr={['cowboy-hat', 'green-hat', 'top-hat', 'wizard-hat']}
                     setState={setHead}
                     state={head}
 
@@ -16,7 +16,7 @@ export default function UserInput({setHead, head, setTorso, torso, setBottom, bo
             <label>
                 Torso
                 <Select
-                    optionsArr={['cowboy', 'formal', 'jacket']}
+                    optionsArr={['cowboy-torso', 'formal-torso', 'jacket-torso']}
                     setState={setTorso}
                     state={torso}
                 />
@@ -24,7 +24,7 @@ export default function UserInput({setHead, head, setTorso, torso, setBottom, bo
             <label>
                 Bottom
                 <Select
-                    optionsArr={['cowboy', 'jean', 'diaper', 'skirt', 'suit']}
+                    optionsArr={['cowboy-bottom', 'jean-bottom', 'diaper-bottom', 'skirt-bottom', 'suit-bottom']}
                     setState={setBottom}
                     state={bottom}
                 />
