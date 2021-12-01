@@ -6,8 +6,7 @@ it('renders display component', () => {
     const {container} = render(<Display head='head' torso='torso' bottom='bottom' catchphraseListArr={['item1', 'item2', 'item3']} />);
     //data-testid attributes hardcoded onto jsx tags act as ids that can be grabbed here.
     const articleEl = screen.getByTestId('article');
-    const catchphraseEl = screen.getByTestId('item1')
-
+    const catchphraseEl = screen.getByTestId('item1');
     // expect the above elements to be in the rendered document.
     expect(articleEl).toBeInTheDocument();
     expect(catchphraseEl).toBeInTheDocument();
