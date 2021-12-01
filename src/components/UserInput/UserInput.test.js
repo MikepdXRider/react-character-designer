@@ -1,9 +1,9 @@
 import {screen, render} from '@testing-library/react'
-import Selector from './Selector.jsx'
+import UserInput from './UserInput.jsx'
 
-it('renders selector component', () => {
+it('renders UserInput component', () => {
     // render enables us to pseudo-render a component. This also lets us use the screen method later on
-    const {container} = render(<Selector optionsArr={['test1', 'test2', 'test3']} />);
+    const {container} = render(<UserInput optionsArr={['test1', 'test2', 'test3']} />);
     // getByLabelText allows us to get the text within a <label> jsx tag.
     const headLabel = screen.getByLabelText('Head');
     const torsoLabel = screen.getByLabelText('Torso');

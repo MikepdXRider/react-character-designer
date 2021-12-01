@@ -1,7 +1,7 @@
 import React from 'react'
 import Select from '../Select/Select.jsx'
 
-export default function Selector({setHead, head, setTorso, torso, setBottom, bottom, newCatchPhraseStr, setNewCatchphraseStr, addCatchphrase}) {
+export default function UserInput({setHead, head, setTorso, torso, setBottom, bottom, newCatchPhraseStr, setNewCatchphraseStr, addCatchphrase}) {
     return (
         <section>
             <label>
@@ -10,6 +10,7 @@ export default function Selector({setHead, head, setTorso, torso, setBottom, bot
                     optionsArr={['cowboy', 'green', 'top', 'wizard']}
                     setState={setHead}
                     state={head}
+
                 />
             </label>
             <label>

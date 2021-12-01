@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders selector component 1`] = `
+exports[`renders UserInput component 1`] = `
 <div>
   <section>
     <label>

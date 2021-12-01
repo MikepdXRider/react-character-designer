@@ -1,6 +1,6 @@
 import './App.css';
 import { useState } from 'react';
-import Selector from './components/Selector/Selector.jsx';
+import UserInput from './components/UserInput/UserInput.jsx';
 import Display from './components/Display/Display.jsx';
 
 function App() {
@@ -27,8 +27,8 @@ function App() {
 
   return (
     <main className="App">
-      {/* Selector component */}
-      <Selector 
+      {/* UserInput component */}
+      <UserInput 
         setHead={setHead}
         head={head}
         setTorso={setTorso}
