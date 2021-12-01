@@ -14,25 +14,21 @@ exports[`renders UserInput component 1`] = `
           Please Choose...
         </option>
         <option
-          data-testid="cowboy-hat"
           value="cowboy-hat"
         >
           cowboy-hat
         </option>
         <option
-          data-testid="green-hat"
           value="green-hat"
         >
           green-hat
         </option>
         <option
-          data-testid="top-hat"
           value="top-hat"
         >
           top-hat
         </option>
         <option
-          data-testid="wizard-hat"
           value="wizard-hat"
         >
           wizard-hat
@@ -50,19 +46,16 @@ exports[`renders UserInput component 1`] = `
           Please Choose...
         </option>
         <option
-          data-testid="cowboy-torso"
           value="cowboy-torso"
         >
           cowboy-torso
         </option>
         <option
-          data-testid="formal-torso"
           value="formal-torso"
         >
           formal-torso
         </option>
         <option
-          data-testid="jacket-torso"
           value="jacket-torso"
         >
           jacket-torso
@@ -80,31 +73,26 @@ exports[`renders UserInput component 1`] = `
           Please Choose...
         </option>
         <option
-          data-testid="cowboy-bottom"
           value="cowboy-bottom"
         >
           cowboy-bottom
         </option>
         <option
-          data-testid="jean-bottom"
           value="jean-bottom"
         >
           jean-bottom
         </option>
         <option
-          data-testid="diaper-bottom"
           value="diaper-bottom"
         >
           diaper-bottom
         </option>
         <option
-          data-testid="skirt-bottom"
           value="skirt-bottom"
         >
           skirt-bottom
         </option>
         <option
-          data-testid="suit-bottom"
           value="suit-bottom"
         >
           suit-bottom

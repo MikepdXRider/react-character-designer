@@ -17,19 +17,13 @@ exports[`renders display component 1`] = `
     />
   </section>
   <section>
-    <p
-      data-testid="item1"
-    >
+    <p>
       item1
     </p>
-    <p
-      data-testid="item2"
-    >
+    <p>
       item2
     </p>
-    <p
-      data-testid="item3"
-    >
+    <p>
       item3
     </p>
   </section>

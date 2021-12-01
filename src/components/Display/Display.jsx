@@ -18,8 +18,8 @@ export default function Display({stateArr, catchphraseListArr}) {
                                 ...globalArticleStyle,
                                 backgroundImage: `url(${state}.png)`
                                 }}
-                            data-testid={state}
                             key={state}
+                            data-testid={state}
                             >
                         </article>
                     })
@@ -28,7 +28,7 @@ export default function Display({stateArr, catchphraseListArr}) {
 
             <section>
                 {
-                    catchphraseListArr.map(catchphrase => <p key={catchphrase} data-testid={catchphrase}>{catchphrase}</p>)
+                    catchphraseListArr.map(catchphrase => <p key={catchphrase}>{catchphrase}</p>)
                 }
             </section>
         </>
